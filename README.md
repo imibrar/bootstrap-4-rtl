@@ -3,9 +3,9 @@
     <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" alt="Bootstrap logo" width=72 height=72>
   </a>
 
-  <h3 align="center">Bootstrap 4.1.2</h3>
+  <h3 align="center">Bootstrap</h3>
 
-    <h3 align="center">Bootstrap RTL</h3>
+    <h4 align="center">Bootstrap RTL 4.1.2</h4>
   <p align="center">
   based on version 4.1.2
   </p>
@@ -23,6 +23,7 @@
 ## Quick start
 
 User files from `rtl` directory to completally mirror the website based on bootstrap v4.1.2, don't forget to use dir="rtl" on html tag in the webpage, RTL sass file included in "sass-rtl" dirctory to customize the bootstrap on your demand.
+all left will effect right and right will left (use align-left if you want to align right while using rtl version, and similar to all other object)
 
 ## What's included
 
