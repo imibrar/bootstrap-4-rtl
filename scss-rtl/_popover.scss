@@ -58,11 +58,11 @@
   }
 }
 
-.bs-popover-left {
+.bs-popover-right {
   margin-right: $popover-arrow-height;
 
   .arrow {
-    right: calc((#{$popover-arrow-height} + #{$popover-border-width}) * -1);
+    left: calc((#{$popover-arrow-height} + #{$popover-border-width}) * -1);
     width: $popover-arrow-height;
     height: $popover-arrow-width;
     margin: $border-radius-lg 0; // make sure the arrow does not touch the popover's rounded corners
@@ -119,11 +119,11 @@
   }
 }
 
-.bs-popover-right {
+.bs-popover-left {
   margin-left: $popover-arrow-height;
 
   .arrow {
-    left: calc((#{$popover-arrow-height} + #{$popover-border-width}) * -1);
+    right: calc((#{$popover-arrow-height} + #{$popover-border-width}) * -1);
     width: $popover-arrow-height;
     height: $popover-arrow-width;
     margin: $border-radius-lg 0; // make sure the arrow does not touch the popover's rounded corners

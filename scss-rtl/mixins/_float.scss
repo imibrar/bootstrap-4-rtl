@@ -1,9 +1,9 @@
 // stylelint-disable declaration-no-important
 
-@mixin float-right {
+@mixin float-left {
   float: right !important;
 }
-@mixin float-left {
+@mixin float-right {
   float: left !important;
 }
 @mixin float-none {

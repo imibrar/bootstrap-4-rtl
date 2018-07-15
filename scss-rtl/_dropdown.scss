@@ -33,7 +33,7 @@
   @include box-shadow($dropdown-box-shadow);
 }
 
-.dropdown-menu-left {
+.dropdown-menu-right {
   left: 0;
   right: auto;
 }
@@ -53,7 +53,7 @@
   }
 }
 
-.dropleft {
+.dropright {
   .dropdown-menu {
     top: 0;
     left: auto;
@@ -70,7 +70,7 @@
   }
 }
 
-.dropright {
+.dropleft {
   .dropdown-menu {
     top: 0;
     left: 100%;

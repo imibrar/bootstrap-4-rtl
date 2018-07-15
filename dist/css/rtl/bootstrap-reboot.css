@@ -1,7 +1,7 @@
 /*!
  * Bootstrap Reboot v4.1.2 (https://getbootstrap.com/)
- * Copyleft 2011-2018 The Bootstrap Authors
- * Copyleft 2011-2018 Twitter, Inc.
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
@@ -34,7 +34,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: right;
+  text-align: left;
   background-color: #fff;
 }
 
@@ -92,7 +92,7 @@ dt {
 
 dd {
   margin-bottom: .5rem;
-  margin-right: 0;
+  margin-left: 0;
 }
 
 blockquote {
@@ -188,7 +188,7 @@ caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #6c757d;
-  text-align: right;
+  text-align: left;
   caption-side: bottom;
 }
 

@@ -50,7 +50,7 @@
 }
 
 .carousel-item-next,
-.active.carousel-item-left {
+.active.carousel-item-right {
   transform: translateX(100%);
 
   @supports (transform-style: preserve-3d) {
@@ -59,7 +59,7 @@
 }
 
 .carousel-item-prev,
-.active.carousel-item-right {
+.active.carousel-item-left {
   transform: translateX(-100%);
 
   @supports (transform-style: preserve-3d) {
@@ -93,7 +93,7 @@
   .carousel-item-next,
   .carousel-item-prev,
   .carousel-item.active,
-  .active.carousel-item-right,
+  .active.carousel-item-left,
   .active.carousel-item-prev {
     transform: translateX(0);
 
