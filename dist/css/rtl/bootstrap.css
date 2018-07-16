@@ -5008,7 +5008,8 @@ button.close {
 .popover {
   position: absolute;
   top: 0;
-  right: 0;
+  right: auto !important;
+  left: 0 !important;
   z-index: 1060;
   display: block;
   max-width: 276px;
@@ -5069,10 +5070,10 @@ button.close {
 }
 
 .bs-popover-right, .bs-popover-auto[x-placement^="right"] {
-  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 .bs-popover-right .arrow, .bs-popover-auto[x-placement^="right"] .arrow {
-  right: calc((0.5rem + 1px) * -1);
+  left: calc((0.5rem + 1px) * -1);
   width: 0.5rem;
   height: 1rem;
   margin: 0.3rem 0;
@@ -5083,12 +5084,12 @@ button.close {
   border-width: 0.5rem 0.5rem 0.5rem 0;
 }
 .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
-  right: 0;
-  border-left-color: rgba(0, 0, 0, 0.25);
+  left: 0;
+  border-right-color: rgba(0, 0, 0, 0.25);
 }
 .bs-popover-right .arrow::after, .bs-popover-auto[x-placement^="right"] .arrow::after {
-  right: 1px;
-  border-left-color: #fff;
+  left: 1px;
+  border-right-color: #fff;
 }
 
 .bs-popover-bottom, .bs-popover-auto[x-placement^="bottom"] {
@@ -5122,10 +5123,10 @@ button.close {
 }
 
 .bs-popover-left, .bs-popover-auto[x-placement^="left"] {
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .bs-popover-left .arrow, .bs-popover-auto[x-placement^="left"] .arrow {
-  left: calc((0.5rem + 1px) * -1);
+  right: calc((0.5rem + 1px) * -1);
   width: 0.5rem;
   height: 1rem;
   margin: 0.3rem 0;
@@ -5136,12 +5137,12 @@ button.close {
   border-width: 0.5rem 0 0.5rem 0.5rem;
 }
 .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
-  left: 0;
-  border-right-color: rgba(0, 0, 0, 0.25);
+  right: 0;
+  border-left-color: rgba(0, 0, 0, 0.25);
 }
 .bs-popover-left .arrow::after, .bs-popover-auto[x-placement^="left"] .arrow::after {
-  left: 1px;
-  border-right-color: #fff;
+  right: 1px;
+  border-left-color: #fff;
 }
 
 .popover-header {
