@@ -1,11 +1,11 @@
 // Notes on the classes:
 //
-// 1. The .carousel-item-right and .carousel-item-left is used to indicate where
+// 1. The .carousel-item-left and .carousel-item-right is used to indicate where
 //    the active slide is heading.
 // 2. .active.carousel-item is the current slide.
-// 3. .active.carousel-item-right and .active.carousel-item-left is the current
+// 3. .active.carousel-item-left and .active.carousel-item-right is the current
 //    slide in its in-transition state. Only one of these occurs at a time.
-// 4. .carousel-item-next.carousel-item-right and .carousel-item-prev.carousel-item-left
+// 4. .carousel-item-next.carousel-item-left and .carousel-item-prev.carousel-item-right
 //    is the upcoming slide in transition.
 
 .carousel {
@@ -40,8 +40,8 @@
   top: 0;
 }
 
-.carousel-item-next.carousel-item-right,
-.carousel-item-prev.carousel-item-left {
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
   transform: translateX(0);
 
   @supports (transform-style: preserve-3d) {
@@ -80,13 +80,13 @@
   }
 
   .carousel-item.active,
-  .carousel-item-next.carousel-item-right,
-  .carousel-item-prev.carousel-item-left {
+  .carousel-item-next.carousel-item-left,
+  .carousel-item-prev.carousel-item-right {
     opacity: 1;
   }
 
-  .active.carousel-item-right,
-  .active.carousel-item-left {
+  .active.carousel-item-left,
+  .active.carousel-item-right {
     opacity: 0;
   }
 
@@ -105,7 +105,7 @@
 
 
 //
-// Left/left controls for nav
+// Left/right controls for nav
 //
 
 .carousel-control-prev,

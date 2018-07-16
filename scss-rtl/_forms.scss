@@ -232,7 +232,7 @@ select.form-control-lg {
   padding-right: 0; // Override base .form-check
   margin-left: $form-check-inline-margin-x;
 
-  // Undo .form-check-input defaults and add some `margin-left`.
+  // Undo .form-check-input defaults and add some `margin-right`.
   .form-check-input {
     position: static;
     margin-top: 0;

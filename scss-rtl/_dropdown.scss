@@ -1,8 +1,8 @@
 // The dropdown wrapper (`<div>`)
 .dropup,
-.dropleft,
+.dropright,
 .dropdown,
-.dropright {
+.dropleft {
   position: relative;
 }
 
@@ -63,7 +63,7 @@
   }
 
   .dropdown-toggle {
-    @include caret(left);
+    @include caret(right);
     &::after {
       vertical-align: 0;
     }
@@ -80,7 +80,7 @@
   }
 
   .dropdown-toggle {
-    @include caret(right);
+    @include caret(left);
     &::before {
       vertical-align: 0;
     }
@@ -91,9 +91,9 @@
 // stylelint-disable no-duplicate-selectors
 .dropdown-menu {
   &[x-placement^="top"],
-  &[x-placement^="left"],
+  &[x-placement^="right"],
   &[x-placement^="bottom"],
-  &[x-placement^="right"] {
+  &[x-placement^="left"] {
     left: auto;
     bottom: auto;
   }
